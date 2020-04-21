@@ -17,6 +17,5 @@ public class Ch10Activity2 extends AppCompatActivity {
         Intent intent=new Intent("com.inspur.broadcast");//实例化，指定广播频道
         intent.putExtra("key1","message");//键值对，键的名字随便取
         sendBroadcast(intent);//发送
-
     }
 }

@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.widget.Toast;
 
 public class MyReceiver extends BroadcastReceiver {
-
     @Override
     public void onReceive(Context context, Intent intent) {
         //当接收到广播时，自动调用本方法

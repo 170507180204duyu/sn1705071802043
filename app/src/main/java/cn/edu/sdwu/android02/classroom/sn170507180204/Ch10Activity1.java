@@ -52,7 +52,6 @@ public class Ch10Activity1 extends AppCompatActivity {
         super.onSaveInstanceState(outState);
         Log.i(Ch10Activity1.class.toString(),"onSaveInstanceState");
     }
-
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         //恢复之前保存的状态信息

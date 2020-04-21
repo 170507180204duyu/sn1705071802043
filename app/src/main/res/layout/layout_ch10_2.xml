@@ -7,5 +7,4 @@
         android:text="send_broadcast"
         android:onClick="send_broadcast"
         android:layout_height="wrap_content" />
-
 </LinearLayout>

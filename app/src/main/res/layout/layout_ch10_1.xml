@@ -13,5 +13,4 @@
         android:text="counter"
         android:onClick="counter"
         android:layout_height="wrap_content" />
-
 </LinearLayout>
