@@ -23,7 +23,6 @@ public class Ch10Activity3 extends AppCompatActivity {
         intent.putExtra("name",content);
         setResult(RESULT_OK,intent);//设置返回值
         finish();//关闭当前页面回到父Activity
-
     }
     public void cancel(View view){
         setResult(RESULT_CANCELED);//取消没有返回值
