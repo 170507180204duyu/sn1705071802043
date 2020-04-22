@@ -27,5 +27,4 @@
         android:text="web"
         android:onClick="web"
         android:layout_height="wrap_content" />
-
 </LinearLayout>
