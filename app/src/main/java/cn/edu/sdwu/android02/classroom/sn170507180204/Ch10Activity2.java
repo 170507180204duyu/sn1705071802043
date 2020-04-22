@@ -52,5 +52,6 @@ public class Ch10Activity2 extends AppCompatActivity {
         //使用隐式启动方式，打开网页
         Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://baidu.com"));
         startActivity(intent);
+
     }
 }
